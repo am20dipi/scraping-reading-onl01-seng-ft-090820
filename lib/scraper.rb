@@ -4,4 +4,4 @@ require 'open-uri'
 html = open("https://flatironschool.com/")
 
 doc = Nokogirl::HTML(open("https://flatironschool.com/"))
-doc.css("")
+doc.css(".headline-26OIBN")
